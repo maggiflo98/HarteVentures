@@ -1,0 +1,27 @@
+.section-services {
+  background-color: $color-white;
+  padding: 30rem 0;
+  margin-top: -20rem;
+  font-size: 1.4rem;
+  backface-visibility: hidden;
+}
+
+.section-events {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-tertiary-dark, 0.8),
+      rgba($color-blue, 0.8)
+    ),
+    url("../css/images/mic.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: auto;
+  background-size: cover;
+  // transform: skewY(-5deg);
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+//   & > * {
+//     transform: skewY(7deg);
+//   }
+// }

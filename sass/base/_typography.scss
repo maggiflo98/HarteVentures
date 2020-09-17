@@ -1,0 +1,59 @@
+body {
+  background-color: whitesmoke;
+  font-size: 1.6rem;
+  padding: 3rem;
+  font-weight: 400;
+  font-family: lato, sans-serif;
+}
+.heading-primary {
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    letter-spacing: 1.5rem;
+    color: maroon;
+    position: auto;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 1.75rem;
+    color: maroon;
+    animation-name: moveInRight;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }
+}
+
+hr.style-eight {
+  border: 1 solid;
+  border-color: rgba(31, 58, 147, 1);
+  margin-top: -1vh;
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: -10rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 181, 204, 1),
+    (rgb(128, 0, 0))
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+
+  &:hover {
+    transform: skewX(1deg) skewY(1.5deg) scale(1.5);
+    text-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.2);
+  }
+}
